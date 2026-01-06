@@ -1,0 +1,14 @@
+
+[Executed at: Mon Dec 15 11:50:11 PST 2025]
+
+Grading report (function implementations):  {'linear_forward (7.5 points)': 7.5, 'linear_backward (7.5 points)': 7.5, 'relu_forward (7.5 points)': 7.5, 'relu_backward (7.5 points)': 7.5, 'tanh_forward (7.5 points)': 7.5, 'tanh_backward (7.5 points)': 7.5, 'dropout_forward (7.5 points)': 7.5, 'dropout_backward (7.5 points)': 7.5}
+
+
+Grading report (test cases):  {'MLP_lr0.01_m0.0_d0.0_arelu.json (10 points)': 10.0, 'MLP_lr0.01_m0.0_d0.0_atanh.json (10 points)': 10.0, 'MLP_lr0.01_m0.9_d0.5_arelu.json (10 points)': 10.0, 'MLP_lr0.01_m0.9_d0.25_atanh.json (10 points)': 10.0}
+
+
+Total score:
+
+100
+
+----- Grading finished. Please check your grading report above to see if you failed on any test. -------

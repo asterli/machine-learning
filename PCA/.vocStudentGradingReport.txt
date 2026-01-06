@@ -1,0 +1,34 @@
+
+[Executed at: Mon Dec 15 17:46:19 PST 2025]
+
+PCA Computation Test passed.
+
+Variance explained accurate.
+
+Most Similar Word Test passed.
+
+Eigenvector Interpretation Test passed.
+
+Semantic/Syntactic Concepts Test 1 passed.
+
+Semantic/Syntactic Concepts Test 2 passed.
+
+Analogy Task accurate.
+
+Similarity Task accurate.
+
+
+**Final Scores**
+PCA Computation: 10/10
+Most Similar Word: 10/10
+Eigenvector Interpretation: 10/10
+Semantic Test: 10/10
+Analogy Task Accuracy: 10/10
+Similarity Task Accuracy: 10/10
+
+Total score for PCA: 60/60
+--
+processing time 9.191241025924683
+
+Matplotlib is building the font cache; this may take a moment.
+----- Grading finished. Please check your grading report above to see if you failed on any test. -------

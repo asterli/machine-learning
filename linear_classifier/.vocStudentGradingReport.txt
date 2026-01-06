@@ -1,0 +1,116 @@
+
+[Executed at: Tue Dec 16 23:05:49 PST 2025]
+
+----- checking sigmoid function -----
+Test case 1:
+passed
+
+Test case 2:
+passed
+
+Test case 3:
+passed
+
+Test case 4:
+passed
+
+score of this part: 4
+
+----- checking binary classification -----
+Test case 1:
+expected output: w, b
+[ 0.01693829 -0.1720001 ]
+-0.007142857142855619
+your output: w, b
+[ 0.01693829 -0.1720001 ]
+-0.007142857142855619
+perceptron binary_train passed.
+expected output: preds
+[0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 0. 1. 0. 0. 0. 0. 1. 0.
+ 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+ 1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+ 0. 1. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 1. 1. 0. 0. 0. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1.
+ 0. 1. 1. 0. 0. 0.]
+your output: preds
+[0 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 1 0 0
+ 1 1 1 0 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 1
+ 0 0 1 1 0 0 0 0 0 0 1 1 1 0 1 1 1 0 0 0 0 1 0 1 0 1 0 0 1 0 0 0 0 0 0 1 0
+ 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0
+ 0 0]
+perceptron binary_predict passed.
+expected output: w, b
+[ 1.23486861 -4.84671257]
+0.5750803536186182
+your output: w, b
+[ 1.23486861 -4.84671257]
+0.5750803536186183
+logistic binary_train passed.
+expected output: preds
+[1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 1. 1. 0.
+ 0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0.
+ 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 1. 0. 1. 1. 0.
+ 1. 1. 0. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+ 0. 1. 0. 1. 0. 1. 1. 0. 0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 1. 1. 0. 1.
+ 0. 1. 1. 0. 0. 0.]
+your output: preds
+[1 0 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 0 1 1 0 0 0 1 0 1 0 1 1 0 0 1 1 0
+ 1 1 1 1 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 1
+ 0 0 1 1 0 0 1 0 0 1 1 1 1 0 1 1 1 0 0 0 0 1 0 1 0 1 0 1 1 0 0 0 0 0 1 1 1
+ 0 0 0 0 0 0 0 0 1 1 1 0 1 0 1 0 0 1 1 1 1 1 0 0 1 1 0 0 0 1 1 0 1 0 1 1 0
+ 0 0]
+logistic binary_predict passed.
+
+Test case 2:
+perceptron binary_train passed.
+perceptron binary_predict passed.
+logistic binary_train passed.
+logistic binary_predict passed.
+
+Test case 3:
+perceptron binary_train passed.
+perceptron binary_predict passed.
+logistic binary_train passed.
+logistic binary_predict passed.
+
+Test case 4:
+perceptron binary_train passed.
+perceptron binary_predict passed.
+logistic binary_train passed.
+logistic binary_predict passed.
+
+score of this part: 24
+
+----- checking multiclass classification -----
+Test case 1:
+sgd multiclass_train passed.
+sgd multiclass_predict passed.
+gd multiclass_train passed.
+gd multiclass_predict passed.
+
+Test case 2:
+sgd multiclass_train passed.
+sgd multiclass_predict passed.
+gd multiclass_train passed.
+gd multiclass_predict passed.
+
+Test case 3:
+sgd multiclass_train passed.
+sgd multiclass_predict passed.
+gd multiclass_train passed.
+gd multiclass_predict passed.
+
+Test case 4:
+sgd multiclass_train passed.
+sgd multiclass_predict passed.
+gd multiclass_train passed.
+gd multiclass_predict passed.
+
+score of this part: 32
+
+Total score: 60/60
+
+processing time (sec): 23.147581815719604
+

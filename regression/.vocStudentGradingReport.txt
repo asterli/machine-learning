@@ -1,0 +1,29 @@
+
+[Executed at: Fri Dec 12 20:41:44 PST 2025]
+
+test_mse_1 passed.
+
+test_mse_2 passed.
+
+test_linear_regression_noreg_1 passed.
+
+test_linear_regression_noreg_2 passed.
+
+test_regularized_linear_regression_1 passed.
+
+test_regularized_linear_regression_2 passed.
+
+test_tune_lambda_1 passed.
+
+test_tune_lambda_2 passed.
+
+test_mapping_data passed for power = 2.
+
+test_mapping_data passed for power = 3.
+
+
+Total score for regression: 30/30
+--
+processing time 0.43775081634521484
+
+----- Grading finished. Please check your grading report above to see if you failed on any test. -------

@@ -1,0 +1,21 @@
+
+[Executed at: Mon Dec 15 13:08:53 PST 2025]
+
+----- checking decision trees accuracy -----
+score of this part: 5
+
+----- checking random forest accuracy -----
+score of this part: 5
+
+----- checking AdaBoost accuracy -----
+score of this part: 10
+
+----- checking AdaBoost's beta coefficients -----
+score of this part: 10
+
+Total score: 30/30
+
+processing time (sec): 0.08870625495910645
+
+Matplotlib is building the font cache; this may take a moment.
+----- Grading finished. Please check your grading report above to see if you failed on any test. -------
